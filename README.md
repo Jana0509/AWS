@@ -48,13 +48,16 @@ You cannot restrict the actions of the root user, so avoid using the root accoun
 
 1. Create an **Admin Group**:
 Under IAM (Identity and Access Management), create a group and attach the AdministratorAccess policy.
+
 ![image](https://github.com/user-attachments/assets/191a3222-53a3-4c99-9580-722dd127d370)
 
 2. Add a **New User** to the **Group**:
 Under Access Management, Select Users and click Create user. Specify the user details, set a password (or allow the user to create one at first login), and add the user to the admin group.
+
 ![image](https://github.com/user-attachments/assets/27478072-3f48-411f-bfa0-965a747900b0)
 
 3. Add the user to the admin group
+
    ![image](https://github.com/user-attachments/assets/d8382c2d-3c26-4e2e-9bc9-6ed76ae28a08)
 
 4. Send Login Instructions:
@@ -62,7 +65,7 @@ Share login credentials securely with the new admin user.
 
 
 # 3. Set Up a Password Policy
-Encourage strong password practices for all users to enhance account security. For example:
+Encourage **strong password practices** for all users to enhance account security. For example:
 
 * Minimum length: 8 characters
 * Require at least one uppercase, lowercase, number, and special character
@@ -90,4 +93,5 @@ Congratulations! You’ve taken your first steps toward mastering the cloud. By 
 Think of these steps as the anchors keeping your ship steady while you explore the vast sea of AWS offerings. The journey has just begun — stay curious, stay secure, and let’s unlock the full potential of the cloud!
 
 **Happy cloud computing!** ☁️
+
 (Published by Captain Jana)
